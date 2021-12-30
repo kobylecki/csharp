@@ -27,6 +27,6 @@ PhoneNumber.Analyze("631-555-1234");
 Implement the (static) method `PhoneNumber.IsFake()` to detect whether the phone number is fake using the phone number info produced in task 1.
 
 ```csharp
-PhoneNumber.IsFake(PhoneNumbers.Analyze("631-555-1234"));
+PhoneNumber.IsFake(PhoneNumber.Analyze("631-555-1234"));
 // => true
 ```
